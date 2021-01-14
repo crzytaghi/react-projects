@@ -1,19 +1,16 @@
 import React from 'react';
 import Tour from './Tour';
 const Tours = ({ tours, removeTour }) => {
+
   return (
     <section>
       <div className="title">
-        <h2>our tours</h2>
-      </div>
-      <div className='underline'>
-
+        <h2>Our Tours</h2>
+        <div className="underline"></div>
       </div>
       <div>
         {tours.map((tour) => {
-          // {...tour} allows us to access all of the props in the Tour component.
-          // Passed the removeTour function from the App.js file which we then pass down to the Tour component using prop drilling.
-          return <Tour key={tour.id} {...tour} removeTour={removeTour} />
+          return <Tour key={tour.id} {...tour} removeTour={removeTour} /> // {...tour} allows you to access all of the properties in the tour
         })}
       </div>
     </section>
