@@ -239,16 +239,18 @@ article {
   left: 0;
   width: 100%;
   height: 100%;
-  /* opacity: 0; */
+  opacity: 0;
   transition: var(--transition);
 }
-/* article.activeSlide {
+article.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
 article.lastSlide {
+  /* moves the item 100% to the left */
   transform: translateX(-100%);
 }
 article.nextSlide {
+  /* moves the item 100% to the right */
   transform: translateX(100%);
-} */
+}
