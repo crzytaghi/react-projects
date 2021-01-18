@@ -15,7 +15,7 @@ function App() {
       amount = data.length;
     }
     setText(data.slice(0, amount));
-  }
+  };
 
   return (
     <section className="section-center">

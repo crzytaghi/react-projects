@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mathes snapshot 1`] = `
+<p
+  className="alert alert-undefined"
+  data-testid="alert"
+>
+  save
+</p>
+`;
